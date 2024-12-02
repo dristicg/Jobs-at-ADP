@@ -10,6 +10,26 @@
 
 <body>
 
+    <script>
+        const btns = document.querySelectorAll(".btn_learnmore");
+
+        // Loop through all buttons
+        btns.forEach((btn) => {
+            btn.addEventListener("mouseenter", () => {
+                btn.style.backgroundColor = "white";
+                btn.style.border = "2px solid navy";
+                btn.style.color = "blue";
+            });
+
+            btn.addEventListener("mouseleave", () => {
+                btn.style.backgroundColor = "navy";
+                btn.style.color = "white";
+                btn.style.border = "2px solid navy";
+            });
+        });
+    </script>
+
+
     <div class="part1">
         <div class="header">
 
@@ -137,24 +157,7 @@
             });
 
           </script> -->
-        <script>
-            const btns = document.querySelectorAll(".btn_learnmore");
-
-            // Loop through all buttons
-            btns.forEach((btn) => {
-                btn.addEventListener("mouseenter", () => {
-                    btn.style.backgroundColor = "white";
-                    btn.style.border = "2px solid navy";
-                    btn.style.color = "blue";
-                });
-
-                btn.addEventListener("mouseleave", () => {
-                    btn.style.backgroundColor = "navy";
-                    btn.style.color = "white";
-                    btn.style.border = "2px solid navy";
-                });
-            });
-        </script>
+      
 
 
         <div id="sec3_tabs" class="sec3_tabs">
@@ -201,6 +204,30 @@
                 own career forward.</span><br><br>
             <button class="btn_seeallteams">See All teams</button>
         </div>
+    </div>
+
+    <div class="sec5">
+        <div class="sec5_left">
+            <span class="sec5_left_heading">Find your next job</span><br><br>
+            <span class="sec5_left_maintext">Here are some of our latest opportunities. Explore all the possibilities.</span><br>
+            <button class="view_more">View More</button>
+        </div>
+        <div class="sec5_right">
+            <div class="sec5_right_box1">
+                
+            </div>
+
+
+            <div class="sec5_right_box2"></div>
+
+
+            <div class="sec5_right_box1"></div>
+
+
+            <div class="sec5_right_box2"></div>
+
+        </div>
+        
     </div>
 </body>
 
