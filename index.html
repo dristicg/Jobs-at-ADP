@@ -95,7 +95,9 @@
                 </div>
             </div>
 
-            <div><img src="https://jobs.adp.com/media/qvhngazp/new_life-adp-header-photo_september-22-2023.png?rxy=0.5118071091225453,0.40342210122063354&width=600&height=450&v=1dac39387ae3200&width=600&height=450&rmode=crop&format=webp&quality=75" class="sec2leftimg"></div>
+            <div><img
+                    src="https://jobs.adp.com/media/qvhngazp/new_life-adp-header-photo_september-22-2023.png?rxy=0.5118071091225453,0.40342210122063354&width=600&height=450&v=1dac39387ae3200&width=600&height=450&rmode=crop&format=webp&quality=75"
+                    class="sec2leftimg"></div>
         </div>
 
 
@@ -106,7 +108,8 @@
             </div><br><br>
 
             <div class="sec2_right_mainContent">
-                We believe in who you are, what you know and where you hope to go with your career. Our strengths-based leadership approach is designed to lean into what you do best and let you shine.
+                We believe in who you are, what you know and where you hope to go with your career. Our strengths-based
+                leadership approach is designed to lean into what you do best and let you shine.
             </div><br><br>
 
             <button class="btn_learnmore">Learn more</button>
@@ -116,15 +119,87 @@
     </div>
 
 
-    <div class="sec3">
+    <div class="sec3" style="background-color: blue;">
 
-        <div class="sec3_tabs">
+        <!-- 
+          <script>
+            const btn = document.querySelectorAll(".btn_learnmore");
+            btn.addEventListener('mouseenter', () => {
+                btn.style.backgroundColor='white';
+                btn.style.border='2px solid navy';
+                btn.style.color='blue';
+            });
+
+            btn.addEventListener("mouseleave", () => {
+            btn.style.backgroundColor = "navy";
+            btn.style.color = "white";
+            btn.style.border = "2px solid navy";
+            });
+
+          </script> -->
+        <script>
+            const btns = document.querySelectorAll(".btn_learnmore");
+
+            // Loop through all buttons
+            btns.forEach((btn) => {
+                btn.addEventListener("mouseenter", () => {
+                    btn.style.backgroundColor = "white";
+                    btn.style.border = "2px solid navy";
+                    btn.style.color = "blue";
+                });
+
+                btn.addEventListener("mouseleave", () => {
+                    btn.style.backgroundColor = "navy";
+                    btn.style.color = "white";
+                    btn.style.border = "2px solid navy";
+                });
+            });
+        </script>
+
+
+        <div id="sec3_tabs" class="sec3_tabs">
             <div class="sec3_tab1">
-                <span>Perks and Benefits</span>
-                <span>Our associates receive support and access to resources that support their well-being because healthy associates are happy ones.</span>
+                <div><img
+                        src="https://jobs.adp.com/media/03qezecr/lifeatadp_overview.jpg?width=600&height=300&v=1dab1187c7d5150&width=600&height=300&rmode=crop&format=webp&quality=75"
+                        style="height: 200px; width: 420px; padding: -50px; margin-left: -50px;"></div>
+                <span class="sec3_tab1_heading">Perks and Benefits</span><br><br>
+                <span class="sec3_tab1_maintext">Our associates receive support and access to resources that support
+                    their well-being because healthy associates are happy ones.</span>
+                <button class="btn_learnmore">Learn more</button>
             </div>
-            <div class="sec3_tab1"></div>
-            <div class="sec3_tab1"></div>
+
+            <div class="sec3_tab1">
+                <div><img
+                        src="https://jobs.adp.com/media/sn4hxlx1/inclusion_mast.jpg?rxy=0.508516785407658,0.21911935140671984&width=600&height=300&v=1dab11875ffa2b0&width=600&height=300&rmode=crop&format=webp&quality=75"
+                        style="height: 200px; width: 420px; padding: -50px; margin-left: -50px;"></div>
+                <span class="sec3_tab1_heading">Inclusion and Diversity</span><br><br>
+                <span class="sec3_tab1_maintext">At ADP, we believe the best ideas thrive in an inclusive environment
+                    that values diverse perspectives. That’s why we made it the cornerstone of our one-of-a-kind
+                    culture.</span><br>
+                <button class="btn_learnmore">Learn more</button>
+            </div>
+
+            <div class="sec3_tab1">
+                <div><img
+                        src="https://jobs.adp.com/media/lqcanuku/csr_mast.jpg?rxy=0.4629887124939134,0.502532773833799&width=600&height=300&v=1dab1186aa0b760&width=600&height=300&rmode=crop&format=webp&quality=75"
+                        style="height: 200px;width: 420px; padding: -50px; margin-left: -50px; margin-top: 0px;"></div>
+                <span class="sec3_tab1_heading">Corporate Social Responsibility</span><br><br>
+                <span class="sec3_tab1_maintext">Whether it’s a volunteer event supporting your local community or
+                    contributing to a charity you’re passionate about, we make it easier to give back. In fact, ADP
+                    offers a gift matching program. Just another way we make an even bigger impact together.</span>
+                <button class="btn_learnmore">Learn more</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="sec4">
+        <div class="sec4_content">
+            <span class="sec4_heading">Like what you do</span><br><br>
+            <span class="sec4_maintext">No matter your role – client service, sales, HR, or tech – you’ll enjoy working
+                with people who are making a difference in the lives of others around the world. All while moving your
+                own career forward.</span><br><br>
+            <button class="btn_seeallteams">See All teams</button>
         </div>
     </div>
 </body>

@@ -228,7 +228,9 @@ font-size: 23px;
 
 .sec2{
 display: flex;
-
+/* background-color: red; */
+height: 700px;
+width: 100vw;
 }
 
 .sec2_left{
@@ -328,9 +330,69 @@ display:flex;
 }
 
 .sec3_tab1{
-    height: 600px;
-    width: 33.3vw;
+    height: 650px;
+    width: 21vw;
     background-color: aqua;
     padding: 50px;
     margin-left: 50px;
+    border: 2px solid black;
+    border-radius: 3pc;
+}
+
+.sec3_tab1_heading{
+font-family: "Taub Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-style: normal;
+font-weight: 700;
+color: rgb(18, 28, 78);
+font-size: 34px;
+
+}
+
+.sec3_tab1_maintext{
+    font-family: "Taub Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(18, 28, 78);
+    font-size: 23px;
+}
+
+
+.sec4{
+
+}
+
+.sec4_heading{
+    font-family: "Taub Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-style: normal;
+font-weight: 700;
+color: rgb(18, 28, 78);
+font-size: 34px;
+}
+
+.sec4_maintext{
+    font-family: "Taub Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(18, 28, 78);
+    font-size: 23px;
+}
+
+.btn_seeallteams{
+    font-family: "Taub Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    font-size: 23px;
+    background-color: rgb(18, 28, 78);
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 5pc;
+}
+
+.sec4_content{
+    height: 300px;
+    width: 600px;
+    background-color: blanchedalmond;
+    margin: 50px;
 }
