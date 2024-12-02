@@ -227,6 +227,7 @@ font-size: 23px;
 }
 
 .sec2{
+display: flex;
 
 }
 
@@ -238,12 +239,17 @@ margin-top: 50px;
 margin-left: 10vw;
 }
 
+.btntntb{
+display: flex;
+}
+
 .btn{
 
     width: 250px;
     border-radius: 50px;
     margin-top: 20px;
     height: 50px;
+    margin-left: 20px;
 
 }
 
@@ -252,17 +258,79 @@ margin-left: 10vw;
     font-weight: 400;
     color: rgb(18,28,78);
     font-size: 23px;
+    height: 150px;
+    width: 317px;
+    background-color: pink;
+    margin: 20px;
 }
 
 .button{
     background-color: rgb(243,243,243);
     /* width: 600px;
     border-radius: 50px; */
+}
 
-   
+.sec2leftimg{
+    border-radius: 4pc;
+    width: 550px;
+    height: 413px;
+    margin-left: 30px;
+    
 }
 
 
 .sec2_right{
+    height: 60vh;
+    width: 40vw;
+    background-color: yellow;
+    margin-top: 50px;
+    margin-left: 60px;
+}
 
+.sec2_right_heading{
+    font-family: "Taub Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(18, 28, 78);
+    font-size: 59px;
+
+}
+
+.sec2_right_mainContent{
+    font-family: "Taub Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(18, 28, 78);
+    font-size: 23px;
+
+}
+
+.btn_learnmore{
+    font-family: "Taub Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    font-size: 23px;
+    background-color: rgb(18, 28, 78);
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 5pc;
+}
+
+
+.sec3{
+
+}
+
+.sec3_tabs{
+display:flex;
+}
+
+.sec3_tab1{
+    height: 600px;
+    width: 33.3vw;
+    background-color: aqua;
+    padding: 50px;
+    margin-left: 50px;
 }
